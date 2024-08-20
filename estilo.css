@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #fbc2eb, #a6c0fe); /* Gradiente de fundo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #062648;
+    padding: 10px 0;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 90%;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.grupo-entrada, .grupo-saida {
+    margin-bottom: 15px;
+}
+
+.grupo-entrada label, .grupo-saida label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.grupo-entrada input, .grupo-saida input, .grupo-entrada select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+button:hover {    
+    background-color: #0056b3;
+}
+
+#resultado {
+    margin-top: 20px;
+}
+
+#resultado p {
+    margin: 5px 0;
+    font-size: 16px;
+}
